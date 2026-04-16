@@ -1,0 +1,379 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : boothmul_NBIT32
+Version: W-2024.09-SP2
+Date   : Fri Apr  3 20:04:36 2026
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: a[0] (input port)
+  Endpoint: y[63] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  boothmul_NBIT32    5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 r
+  a[0] (in)                                               0.00       0.00 r
+  encoder_inst_0/a[0] (booth_encoder_selector_NBIT32_0)
+                                                          0.00       0.00 r
+  encoder_inst_0/U148/ZN (INV_X1)                         0.05       0.05 f
+  encoder_inst_0/add_36/A[0] (booth_encoder_selector_NBIT32_0_DW01_inc_0_DW01_inc_30)
+                                                          0.00       0.05 f
+  encoder_inst_0/add_36/U1_1_1/CO (HA_X1)                 0.06       0.11 f
+  encoder_inst_0/add_36/U1_1_2/CO (HA_X1)                 0.06       0.17 f
+  encoder_inst_0/add_36/U1_1_3/S (HA_X1)                  0.08       0.25 f
+  encoder_inst_0/add_36/SUM[3] (booth_encoder_selector_NBIT32_0_DW01_inc_0_DW01_inc_30)
+                                                          0.00       0.25 f
+  encoder_inst_0/U54/ZN (AOI22_X1)                        0.05       0.30 r
+  encoder_inst_0/U55/ZN (OAI221_X1)                       0.06       0.36 f
+  encoder_inst_0/vp[3] (booth_encoder_selector_NBIT32_0)
+                                                          0.00       0.36 f
+  rca_inst_1/A[3] (RCA_NBIT64_0)                          0.00       0.36 f
+  rca_inst_1/FAI_4/A (FA_957)                             0.00       0.36 f
+  rca_inst_1/FAI_4/U4/Z (XOR2_X1)                         0.08       0.44 f
+  rca_inst_1/FAI_4/U2/ZN (AOI22_X1)                       0.06       0.50 r
+  rca_inst_1/FAI_4/U1/ZN (INV_X1)                         0.03       0.53 f
+  rca_inst_1/FAI_4/Co (FA_957)                            0.00       0.53 f
+  rca_inst_1/FAI_5/Ci (FA_956)                            0.00       0.53 f
+  rca_inst_1/FAI_5/U2/ZN (AOI22_X1)                       0.06       0.59 r
+  rca_inst_1/FAI_5/U1/ZN (INV_X1)                         0.03       0.62 f
+  rca_inst_1/FAI_5/Co (FA_956)                            0.00       0.62 f
+  rca_inst_1/FAI_6/Ci (FA_955)                            0.00       0.62 f
+  rca_inst_1/FAI_6/U2/ZN (AOI22_X1)                       0.06       0.68 r
+  rca_inst_1/FAI_6/U1/ZN (INV_X1)                         0.03       0.71 f
+  rca_inst_1/FAI_6/Co (FA_955)                            0.00       0.71 f
+  rca_inst_1/FAI_7/Ci (FA_954)                            0.00       0.71 f
+  rca_inst_1/FAI_7/U2/ZN (AOI22_X1)                       0.06       0.77 r
+  rca_inst_1/FAI_7/U1/ZN (INV_X1)                         0.03       0.80 f
+  rca_inst_1/FAI_7/Co (FA_954)                            0.00       0.80 f
+  rca_inst_1/FAI_8/Ci (FA_953)                            0.00       0.80 f
+  rca_inst_1/FAI_8/U2/ZN (AOI22_X1)                       0.06       0.86 r
+  rca_inst_1/FAI_8/U1/ZN (INV_X1)                         0.03       0.89 f
+  rca_inst_1/FAI_8/Co (FA_953)                            0.00       0.89 f
+  rca_inst_1/FAI_9/Ci (FA_952)                            0.00       0.89 f
+  rca_inst_1/FAI_9/U2/ZN (AOI22_X1)                       0.06       0.95 r
+  rca_inst_1/FAI_9/U1/ZN (INV_X1)                         0.03       0.98 f
+  rca_inst_1/FAI_9/Co (FA_952)                            0.00       0.98 f
+  rca_inst_1/FAI_10/Ci (FA_951)                           0.00       0.98 f
+  rca_inst_1/FAI_10/U2/ZN (AOI22_X1)                      0.06       1.04 r
+  rca_inst_1/FAI_10/U1/ZN (INV_X1)                        0.03       1.07 f
+  rca_inst_1/FAI_10/Co (FA_951)                           0.00       1.07 f
+  rca_inst_1/FAI_11/Ci (FA_950)                           0.00       1.07 f
+  rca_inst_1/FAI_11/U2/ZN (AOI22_X1)                      0.06       1.13 r
+  rca_inst_1/FAI_11/U1/ZN (INV_X1)                        0.03       1.16 f
+  rca_inst_1/FAI_11/Co (FA_950)                           0.00       1.16 f
+  rca_inst_1/FAI_12/Ci (FA_949)                           0.00       1.16 f
+  rca_inst_1/FAI_12/U2/ZN (AOI22_X1)                      0.06       1.22 r
+  rca_inst_1/FAI_12/U1/ZN (INV_X1)                        0.03       1.25 f
+  rca_inst_1/FAI_12/Co (FA_949)                           0.00       1.25 f
+  rca_inst_1/FAI_13/Ci (FA_948)                           0.00       1.25 f
+  rca_inst_1/FAI_13/U2/ZN (AOI22_X1)                      0.06       1.31 r
+  rca_inst_1/FAI_13/U1/ZN (INV_X1)                        0.03       1.33 f
+  rca_inst_1/FAI_13/Co (FA_948)                           0.00       1.33 f
+  rca_inst_1/FAI_14/Ci (FA_947)                           0.00       1.33 f
+  rca_inst_1/FAI_14/U2/ZN (AOI22_X1)                      0.06       1.40 r
+  rca_inst_1/FAI_14/U1/ZN (INV_X1)                        0.03       1.42 f
+  rca_inst_1/FAI_14/Co (FA_947)                           0.00       1.42 f
+  rca_inst_1/FAI_15/Ci (FA_946)                           0.00       1.42 f
+  rca_inst_1/FAI_15/U2/ZN (AOI22_X1)                      0.06       1.48 r
+  rca_inst_1/FAI_15/U1/ZN (INV_X1)                        0.03       1.51 f
+  rca_inst_1/FAI_15/Co (FA_946)                           0.00       1.51 f
+  rca_inst_1/FAI_16/Ci (FA_945)                           0.00       1.51 f
+  rca_inst_1/FAI_16/U2/ZN (AOI22_X1)                      0.06       1.57 r
+  rca_inst_1/FAI_16/U1/ZN (INV_X1)                        0.03       1.60 f
+  rca_inst_1/FAI_16/Co (FA_945)                           0.00       1.60 f
+  rca_inst_1/FAI_17/Ci (FA_944)                           0.00       1.60 f
+  rca_inst_1/FAI_17/U2/ZN (AOI22_X1)                      0.06       1.66 r
+  rca_inst_1/FAI_17/U1/ZN (INV_X1)                        0.03       1.69 f
+  rca_inst_1/FAI_17/Co (FA_944)                           0.00       1.69 f
+  rca_inst_1/FAI_18/Ci (FA_943)                           0.00       1.69 f
+  rca_inst_1/FAI_18/U2/ZN (AOI22_X1)                      0.06       1.75 r
+  rca_inst_1/FAI_18/U1/ZN (INV_X1)                        0.03       1.78 f
+  rca_inst_1/FAI_18/Co (FA_943)                           0.00       1.78 f
+  rca_inst_1/FAI_19/Ci (FA_942)                           0.00       1.78 f
+  rca_inst_1/FAI_19/U2/ZN (AOI22_X1)                      0.06       1.84 r
+  rca_inst_1/FAI_19/U1/ZN (INV_X1)                        0.03       1.87 f
+  rca_inst_1/FAI_19/Co (FA_942)                           0.00       1.87 f
+  rca_inst_1/FAI_20/Ci (FA_941)                           0.00       1.87 f
+  rca_inst_1/FAI_20/U2/ZN (AOI22_X1)                      0.06       1.93 r
+  rca_inst_1/FAI_20/U1/ZN (INV_X1)                        0.03       1.96 f
+  rca_inst_1/FAI_20/Co (FA_941)                           0.00       1.96 f
+  rca_inst_1/FAI_21/Ci (FA_940)                           0.00       1.96 f
+  rca_inst_1/FAI_21/U2/ZN (AOI22_X1)                      0.06       2.02 r
+  rca_inst_1/FAI_21/U1/ZN (INV_X1)                        0.03       2.05 f
+  rca_inst_1/FAI_21/Co (FA_940)                           0.00       2.05 f
+  rca_inst_1/FAI_22/Ci (FA_939)                           0.00       2.05 f
+  rca_inst_1/FAI_22/U2/ZN (AOI22_X1)                      0.06       2.11 r
+  rca_inst_1/FAI_22/U1/ZN (INV_X1)                        0.03       2.14 f
+  rca_inst_1/FAI_22/Co (FA_939)                           0.00       2.14 f
+  rca_inst_1/FAI_23/Ci (FA_938)                           0.00       2.14 f
+  rca_inst_1/FAI_23/U2/ZN (AOI22_X1)                      0.06       2.20 r
+  rca_inst_1/FAI_23/U1/ZN (INV_X1)                        0.03       2.23 f
+  rca_inst_1/FAI_23/Co (FA_938)                           0.00       2.23 f
+  rca_inst_1/FAI_24/Ci (FA_937)                           0.00       2.23 f
+  rca_inst_1/FAI_24/U2/ZN (AOI22_X1)                      0.06       2.29 r
+  rca_inst_1/FAI_24/U1/ZN (INV_X1)                        0.03       2.31 f
+  rca_inst_1/FAI_24/Co (FA_937)                           0.00       2.31 f
+  rca_inst_1/FAI_25/Ci (FA_936)                           0.00       2.31 f
+  rca_inst_1/FAI_25/U2/ZN (AOI22_X1)                      0.06       2.38 r
+  rca_inst_1/FAI_25/U1/ZN (INV_X1)                        0.03       2.40 f
+  rca_inst_1/FAI_25/Co (FA_936)                           0.00       2.40 f
+  rca_inst_1/FAI_26/Ci (FA_935)                           0.00       2.40 f
+  rca_inst_1/FAI_26/U2/ZN (AOI22_X1)                      0.06       2.46 r
+  rca_inst_1/FAI_26/U1/ZN (INV_X1)                        0.03       2.49 f
+  rca_inst_1/FAI_26/Co (FA_935)                           0.00       2.49 f
+  rca_inst_1/FAI_27/Ci (FA_934)                           0.00       2.49 f
+  rca_inst_1/FAI_27/U2/ZN (AOI22_X1)                      0.06       2.55 r
+  rca_inst_1/FAI_27/U1/ZN (INV_X1)                        0.03       2.58 f
+  rca_inst_1/FAI_27/Co (FA_934)                           0.00       2.58 f
+  rca_inst_1/FAI_28/Ci (FA_933)                           0.00       2.58 f
+  rca_inst_1/FAI_28/U2/ZN (AOI22_X1)                      0.06       2.64 r
+  rca_inst_1/FAI_28/U1/ZN (INV_X1)                        0.03       2.67 f
+  rca_inst_1/FAI_28/Co (FA_933)                           0.00       2.67 f
+  rca_inst_1/FAI_29/Ci (FA_932)                           0.00       2.67 f
+  rca_inst_1/FAI_29/U2/ZN (AOI22_X1)                      0.06       2.73 r
+  rca_inst_1/FAI_29/U1/ZN (INV_X1)                        0.03       2.76 f
+  rca_inst_1/FAI_29/Co (FA_932)                           0.00       2.76 f
+  rca_inst_1/FAI_30/Ci (FA_931)                           0.00       2.76 f
+  rca_inst_1/FAI_30/U2/ZN (AOI22_X1)                      0.06       2.82 r
+  rca_inst_1/FAI_30/U1/ZN (INV_X1)                        0.03       2.85 f
+  rca_inst_1/FAI_30/Co (FA_931)                           0.00       2.85 f
+  rca_inst_1/FAI_31/Ci (FA_930)                           0.00       2.85 f
+  rca_inst_1/FAI_31/U2/ZN (AOI22_X1)                      0.06       2.91 r
+  rca_inst_1/FAI_31/U1/ZN (INV_X1)                        0.03       2.94 f
+  rca_inst_1/FAI_31/Co (FA_930)                           0.00       2.94 f
+  rca_inst_1/FAI_32/Ci (FA_929)                           0.00       2.94 f
+  rca_inst_1/FAI_32/U2/ZN (AOI22_X1)                      0.06       3.00 r
+  rca_inst_1/FAI_32/U1/ZN (INV_X1)                        0.03       3.03 f
+  rca_inst_1/FAI_32/Co (FA_929)                           0.00       3.03 f
+  rca_inst_1/FAI_33/Ci (FA_928)                           0.00       3.03 f
+  rca_inst_1/FAI_33/U2/ZN (AOI22_X1)                      0.06       3.09 r
+  rca_inst_1/FAI_33/U1/ZN (INV_X1)                        0.03       3.12 f
+  rca_inst_1/FAI_33/Co (FA_928)                           0.00       3.12 f
+  rca_inst_1/FAI_34/Ci (FA_927)                           0.00       3.12 f
+  rca_inst_1/FAI_34/U2/ZN (AOI22_X1)                      0.06       3.18 r
+  rca_inst_1/FAI_34/U1/ZN (INV_X1)                        0.03       3.21 f
+  rca_inst_1/FAI_34/Co (FA_927)                           0.00       3.21 f
+  rca_inst_1/FAI_35/Ci (FA_926)                           0.00       3.21 f
+  rca_inst_1/FAI_35/U2/ZN (AOI22_X1)                      0.06       3.27 r
+  rca_inst_1/FAI_35/U1/ZN (INV_X1)                        0.03       3.30 f
+  rca_inst_1/FAI_35/Co (FA_926)                           0.00       3.30 f
+  rca_inst_1/FAI_36/Ci (FA_925)                           0.00       3.30 f
+  rca_inst_1/FAI_36/U2/ZN (AOI22_X1)                      0.06       3.37 r
+  rca_inst_1/FAI_36/U1/ZN (INV_X1)                        0.03       3.40 f
+  rca_inst_1/FAI_36/Co (FA_925)                           0.00       3.40 f
+  rca_inst_1/FAI_37/Ci (FA_924)                           0.00       3.40 f
+  rca_inst_1/FAI_37/U2/ZN (AOI22_X1)                      0.06       3.46 r
+  rca_inst_1/FAI_37/U1/ZN (INV_X1)                        0.03       3.49 f
+  rca_inst_1/FAI_37/Co (FA_924)                           0.00       3.49 f
+  rca_inst_1/FAI_38/Ci (FA_923)                           0.00       3.49 f
+  rca_inst_1/FAI_38/U2/ZN (AOI22_X1)                      0.06       3.55 r
+  rca_inst_1/FAI_38/U1/ZN (INV_X1)                        0.03       3.58 f
+  rca_inst_1/FAI_38/Co (FA_923)                           0.00       3.58 f
+  rca_inst_1/FAI_39/Ci (FA_922)                           0.00       3.58 f
+  rca_inst_1/FAI_39/U2/ZN (AOI22_X1)                      0.06       3.64 r
+  rca_inst_1/FAI_39/U1/ZN (INV_X1)                        0.03       3.67 f
+  rca_inst_1/FAI_39/Co (FA_922)                           0.00       3.67 f
+  rca_inst_1/FAI_40/Ci (FA_921)                           0.00       3.67 f
+  rca_inst_1/FAI_40/U2/ZN (AOI22_X1)                      0.06       3.74 r
+  rca_inst_1/FAI_40/U1/ZN (INV_X1)                        0.03       3.77 f
+  rca_inst_1/FAI_40/Co (FA_921)                           0.00       3.77 f
+  rca_inst_1/FAI_41/Ci (FA_920)                           0.00       3.77 f
+  rca_inst_1/FAI_41/U2/ZN (AOI22_X1)                      0.06       3.83 r
+  rca_inst_1/FAI_41/U1/ZN (INV_X1)                        0.03       3.86 f
+  rca_inst_1/FAI_41/Co (FA_920)                           0.00       3.86 f
+  rca_inst_1/FAI_42/Ci (FA_919)                           0.00       3.86 f
+  rca_inst_1/FAI_42/U2/ZN (AOI22_X1)                      0.06       3.92 r
+  rca_inst_1/FAI_42/U1/ZN (INV_X1)                        0.03       3.95 f
+  rca_inst_1/FAI_42/Co (FA_919)                           0.00       3.95 f
+  rca_inst_1/FAI_43/Ci (FA_918)                           0.00       3.95 f
+  rca_inst_1/FAI_43/U2/ZN (AOI22_X1)                      0.06       4.02 r
+  rca_inst_1/FAI_43/U1/ZN (INV_X1)                        0.03       4.05 f
+  rca_inst_1/FAI_43/Co (FA_918)                           0.00       4.05 f
+  rca_inst_1/FAI_44/Ci (FA_917)                           0.00       4.05 f
+  rca_inst_1/FAI_44/U2/ZN (AOI22_X1)                      0.06       4.11 r
+  rca_inst_1/FAI_44/U1/ZN (INV_X1)                        0.03       4.14 f
+  rca_inst_1/FAI_44/Co (FA_917)                           0.00       4.14 f
+  rca_inst_1/FAI_45/Ci (FA_916)                           0.00       4.14 f
+  rca_inst_1/FAI_45/U2/ZN (AOI22_X1)                      0.06       4.20 r
+  rca_inst_1/FAI_45/U1/ZN (INV_X1)                        0.03       4.23 f
+  rca_inst_1/FAI_45/Co (FA_916)                           0.00       4.23 f
+  rca_inst_1/FAI_46/Ci (FA_915)                           0.00       4.23 f
+  rca_inst_1/FAI_46/U2/ZN (AOI22_X1)                      0.06       4.29 r
+  rca_inst_1/FAI_46/U1/ZN (INV_X1)                        0.03       4.32 f
+  rca_inst_1/FAI_46/Co (FA_915)                           0.00       4.32 f
+  rca_inst_1/FAI_47/Ci (FA_914)                           0.00       4.32 f
+  rca_inst_1/FAI_47/U2/ZN (AOI22_X1)                      0.06       4.39 r
+  rca_inst_1/FAI_47/U1/ZN (INV_X1)                        0.03       4.42 f
+  rca_inst_1/FAI_47/Co (FA_914)                           0.00       4.42 f
+  rca_inst_1/FAI_48/Ci (FA_913)                           0.00       4.42 f
+  rca_inst_1/FAI_48/U2/ZN (AOI22_X1)                      0.06       4.48 r
+  rca_inst_1/FAI_48/U1/ZN (INV_X1)                        0.03       4.51 f
+  rca_inst_1/FAI_48/Co (FA_913)                           0.00       4.51 f
+  rca_inst_1/FAI_49/Ci (FA_912)                           0.00       4.51 f
+  rca_inst_1/FAI_49/U2/ZN (AOI22_X1)                      0.06       4.57 r
+  rca_inst_1/FAI_49/U1/ZN (INV_X1)                        0.03       4.60 f
+  rca_inst_1/FAI_49/Co (FA_912)                           0.00       4.60 f
+  rca_inst_1/FAI_50/Ci (FA_911)                           0.00       4.60 f
+  rca_inst_1/FAI_50/U2/ZN (AOI22_X1)                      0.06       4.66 r
+  rca_inst_1/FAI_50/U1/ZN (INV_X1)                        0.03       4.69 f
+  rca_inst_1/FAI_50/Co (FA_911)                           0.00       4.69 f
+  rca_inst_1/FAI_51/Ci (FA_910)                           0.00       4.69 f
+  rca_inst_1/FAI_51/U2/ZN (AOI22_X1)                      0.06       4.76 r
+  rca_inst_1/FAI_51/U1/ZN (INV_X1)                        0.03       4.79 f
+  rca_inst_1/FAI_51/Co (FA_910)                           0.00       4.79 f
+  rca_inst_1/FAI_52/Ci (FA_909)                           0.00       4.79 f
+  rca_inst_1/FAI_52/U2/ZN (AOI22_X1)                      0.06       4.85 r
+  rca_inst_1/FAI_52/U1/ZN (INV_X1)                        0.03       4.88 f
+  rca_inst_1/FAI_52/Co (FA_909)                           0.00       4.88 f
+  rca_inst_1/FAI_53/Ci (FA_908)                           0.00       4.88 f
+  rca_inst_1/FAI_53/U2/ZN (AOI22_X1)                      0.06       4.94 r
+  rca_inst_1/FAI_53/U1/ZN (INV_X1)                        0.03       4.97 f
+  rca_inst_1/FAI_53/Co (FA_908)                           0.00       4.97 f
+  rca_inst_1/FAI_54/Ci (FA_907)                           0.00       4.97 f
+  rca_inst_1/FAI_54/U2/ZN (AOI22_X1)                      0.06       5.03 r
+  rca_inst_1/FAI_54/U1/ZN (INV_X1)                        0.03       5.06 f
+  rca_inst_1/FAI_54/Co (FA_907)                           0.00       5.06 f
+  rca_inst_1/FAI_55/Ci (FA_906)                           0.00       5.06 f
+  rca_inst_1/FAI_55/U2/ZN (AOI22_X1)                      0.06       5.13 r
+  rca_inst_1/FAI_55/U1/ZN (INV_X1)                        0.03       5.16 f
+  rca_inst_1/FAI_55/Co (FA_906)                           0.00       5.16 f
+  rca_inst_1/FAI_56/Ci (FA_905)                           0.00       5.16 f
+  rca_inst_1/FAI_56/U2/ZN (AOI22_X1)                      0.06       5.22 r
+  rca_inst_1/FAI_56/U1/ZN (INV_X1)                        0.03       5.25 f
+  rca_inst_1/FAI_56/Co (FA_905)                           0.00       5.25 f
+  rca_inst_1/FAI_57/Ci (FA_904)                           0.00       5.25 f
+  rca_inst_1/FAI_57/U2/ZN (AOI22_X1)                      0.06       5.31 r
+  rca_inst_1/FAI_57/U1/ZN (INV_X1)                        0.03       5.34 f
+  rca_inst_1/FAI_57/Co (FA_904)                           0.00       5.34 f
+  rca_inst_1/FAI_58/Ci (FA_903)                           0.00       5.34 f
+  rca_inst_1/FAI_58/U2/ZN (AOI22_X1)                      0.06       5.40 r
+  rca_inst_1/FAI_58/U1/ZN (INV_X1)                        0.03       5.43 f
+  rca_inst_1/FAI_58/Co (FA_903)                           0.00       5.43 f
+  rca_inst_1/FAI_59/Ci (FA_902)                           0.00       5.43 f
+  rca_inst_1/FAI_59/U2/ZN (AOI22_X1)                      0.06       5.50 r
+  rca_inst_1/FAI_59/U1/ZN (INV_X1)                        0.03       5.53 f
+  rca_inst_1/FAI_59/Co (FA_902)                           0.00       5.53 f
+  rca_inst_1/FAI_60/Ci (FA_901)                           0.00       5.53 f
+  rca_inst_1/FAI_60/U2/ZN (AOI22_X1)                      0.06       5.59 r
+  rca_inst_1/FAI_60/U1/ZN (INV_X1)                        0.03       5.62 f
+  rca_inst_1/FAI_60/Co (FA_901)                           0.00       5.62 f
+  rca_inst_1/FAI_61/Ci (FA_900)                           0.00       5.62 f
+  rca_inst_1/FAI_61/U2/ZN (AOI22_X1)                      0.06       5.68 r
+  rca_inst_1/FAI_61/U1/ZN (INV_X1)                        0.03       5.71 f
+  rca_inst_1/FAI_61/Co (FA_900)                           0.00       5.71 f
+  rca_inst_1/FAI_62/Ci (FA_899)                           0.00       5.71 f
+  rca_inst_1/FAI_62/U2/ZN (AOI22_X1)                      0.06       5.78 r
+  rca_inst_1/FAI_62/U1/ZN (INV_X1)                        0.03       5.81 f
+  rca_inst_1/FAI_62/Co (FA_899)                           0.00       5.81 f
+  rca_inst_1/FAI_63/Ci (FA_898)                           0.00       5.81 f
+  rca_inst_1/FAI_63/U2/ZN (AOI22_X1)                      0.06       5.87 r
+  rca_inst_1/FAI_63/U1/ZN (INV_X1)                        0.03       5.90 f
+  rca_inst_1/FAI_63/Co (FA_898)                           0.00       5.90 f
+  rca_inst_1/FAI_64/Ci (FA_897)                           0.00       5.90 f
+  rca_inst_1/FAI_64/U3/Z (XOR2_X1)                        0.06       5.96 r
+  rca_inst_1/FAI_64/S (FA_897)                            0.00       5.96 r
+  rca_inst_1/S[63] (RCA_NBIT64_0)                         0.00       5.96 r
+  rca_inst_2/A[63] (RCA_NBIT64_14)                        0.00       5.96 r
+  rca_inst_2/FAI_64/A (FA_833)                            0.00       5.96 r
+  rca_inst_2/FAI_64/U4/Z (XOR2_X1)                        0.08       6.04 r
+  rca_inst_2/FAI_64/U3/Z (XOR2_X1)                        0.09       6.13 r
+  rca_inst_2/FAI_64/S (FA_833)                            0.00       6.13 r
+  rca_inst_2/S[63] (RCA_NBIT64_14)                        0.00       6.13 r
+  rca_inst_3/A[63] (RCA_NBIT64_13)                        0.00       6.13 r
+  rca_inst_3/FAI_64/A (FA_769)                            0.00       6.13 r
+  rca_inst_3/FAI_64/U4/Z (XOR2_X1)                        0.08       6.22 r
+  rca_inst_3/FAI_64/U3/Z (XOR2_X1)                        0.09       6.30 r
+  rca_inst_3/FAI_64/S (FA_769)                            0.00       6.30 r
+  rca_inst_3/S[63] (RCA_NBIT64_13)                        0.00       6.30 r
+  rca_inst_4/A[63] (RCA_NBIT64_12)                        0.00       6.30 r
+  rca_inst_4/FAI_64/A (FA_705)                            0.00       6.30 r
+  rca_inst_4/FAI_64/U4/Z (XOR2_X1)                        0.08       6.39 r
+  rca_inst_4/FAI_64/U3/Z (XOR2_X1)                        0.09       6.48 r
+  rca_inst_4/FAI_64/S (FA_705)                            0.00       6.48 r
+  rca_inst_4/S[63] (RCA_NBIT64_12)                        0.00       6.48 r
+  rca_inst_5/A[63] (RCA_NBIT64_11)                        0.00       6.48 r
+  rca_inst_5/FAI_64/A (FA_641)                            0.00       6.48 r
+  rca_inst_5/FAI_64/U4/Z (XOR2_X1)                        0.08       6.56 r
+  rca_inst_5/FAI_64/U3/Z (XOR2_X1)                        0.09       6.65 r
+  rca_inst_5/FAI_64/S (FA_641)                            0.00       6.65 r
+  rca_inst_5/S[63] (RCA_NBIT64_11)                        0.00       6.65 r
+  rca_inst_6/A[63] (RCA_NBIT64_10)                        0.00       6.65 r
+  rca_inst_6/FAI_64/A (FA_577)                            0.00       6.65 r
+  rca_inst_6/FAI_64/U4/Z (XOR2_X1)                        0.08       6.73 r
+  rca_inst_6/FAI_64/U3/Z (XOR2_X1)                        0.09       6.82 r
+  rca_inst_6/FAI_64/S (FA_577)                            0.00       6.82 r
+  rca_inst_6/S[63] (RCA_NBIT64_10)                        0.00       6.82 r
+  rca_inst_7/A[63] (RCA_NBIT64_9)                         0.00       6.82 r
+  rca_inst_7/FAI_64/A (FA_513)                            0.00       6.82 r
+  rca_inst_7/FAI_64/U4/Z (XOR2_X1)                        0.08       6.90 r
+  rca_inst_7/FAI_64/U3/Z (XOR2_X1)                        0.09       6.99 r
+  rca_inst_7/FAI_64/S (FA_513)                            0.00       6.99 r
+  rca_inst_7/S[63] (RCA_NBIT64_9)                         0.00       6.99 r
+  rca_inst_8/A[63] (RCA_NBIT64_8)                         0.00       6.99 r
+  rca_inst_8/FAI_64/A (FA_449)                            0.00       6.99 r
+  rca_inst_8/FAI_64/U4/Z (XOR2_X1)                        0.08       7.08 r
+  rca_inst_8/FAI_64/U3/Z (XOR2_X1)                        0.09       7.16 r
+  rca_inst_8/FAI_64/S (FA_449)                            0.00       7.16 r
+  rca_inst_8/S[63] (RCA_NBIT64_8)                         0.00       7.16 r
+  rca_inst_9/A[63] (RCA_NBIT64_7)                         0.00       7.16 r
+  rca_inst_9/FAI_64/A (FA_385)                            0.00       7.16 r
+  rca_inst_9/FAI_64/U4/Z (XOR2_X1)                        0.08       7.25 r
+  rca_inst_9/FAI_64/U3/Z (XOR2_X1)                        0.09       7.33 r
+  rca_inst_9/FAI_64/S (FA_385)                            0.00       7.33 r
+  rca_inst_9/S[63] (RCA_NBIT64_7)                         0.00       7.33 r
+  rca_inst_10/A[63] (RCA_NBIT64_6)                        0.00       7.33 r
+  rca_inst_10/FAI_64/A (FA_321)                           0.00       7.33 r
+  rca_inst_10/FAI_64/U4/Z (XOR2_X1)                       0.08       7.42 r
+  rca_inst_10/FAI_64/U3/Z (XOR2_X1)                       0.09       7.50 r
+  rca_inst_10/FAI_64/S (FA_321)                           0.00       7.50 r
+  rca_inst_10/S[63] (RCA_NBIT64_6)                        0.00       7.50 r
+  rca_inst_11/A[63] (RCA_NBIT64_5)                        0.00       7.50 r
+  rca_inst_11/FAI_64/A (FA_257)                           0.00       7.50 r
+  rca_inst_11/FAI_64/U4/Z (XOR2_X1)                       0.08       7.59 r
+  rca_inst_11/FAI_64/U3/Z (XOR2_X1)                       0.09       7.67 r
+  rca_inst_11/FAI_64/S (FA_257)                           0.00       7.67 r
+  rca_inst_11/S[63] (RCA_NBIT64_5)                        0.00       7.67 r
+  rca_inst_12/A[63] (RCA_NBIT64_4)                        0.00       7.67 r
+  rca_inst_12/FAI_64/A (FA_193)                           0.00       7.67 r
+  rca_inst_12/FAI_64/U4/Z (XOR2_X1)                       0.08       7.76 r
+  rca_inst_12/FAI_64/U3/Z (XOR2_X1)                       0.09       7.84 r
+  rca_inst_12/FAI_64/S (FA_193)                           0.00       7.84 r
+  rca_inst_12/S[63] (RCA_NBIT64_4)                        0.00       7.84 r
+  rca_inst_13/A[63] (RCA_NBIT64_3)                        0.00       7.84 r
+  rca_inst_13/FAI_64/A (FA_129)                           0.00       7.84 r
+  rca_inst_13/FAI_64/U4/Z (XOR2_X1)                       0.08       7.93 r
+  rca_inst_13/FAI_64/U3/Z (XOR2_X1)                       0.09       8.01 r
+  rca_inst_13/FAI_64/S (FA_129)                           0.00       8.01 r
+  rca_inst_13/S[63] (RCA_NBIT64_3)                        0.00       8.01 r
+  rca_inst_14/A[63] (RCA_NBIT64_2)                        0.00       8.01 r
+  rca_inst_14/FAI_64/A (FA_65)                            0.00       8.01 r
+  rca_inst_14/FAI_64/U4/Z (XOR2_X1)                       0.08       8.10 r
+  rca_inst_14/FAI_64/U3/Z (XOR2_X1)                       0.09       8.18 r
+  rca_inst_14/FAI_64/S (FA_65)                            0.00       8.18 r
+  rca_inst_14/S[63] (RCA_NBIT64_2)                        0.00       8.18 r
+  rca_inst_15/A[63] (RCA_NBIT64_1)                        0.00       8.18 r
+  rca_inst_15/FAI_64/A (FA_1)                             0.00       8.18 r
+  rca_inst_15/FAI_64/U4/Z (XOR2_X1)                       0.08       8.27 r
+  rca_inst_15/FAI_64/U3/Z (XOR2_X1)                       0.06       8.33 r
+  rca_inst_15/FAI_64/S (FA_1)                             0.00       8.33 r
+  rca_inst_15/S[63] (RCA_NBIT64_1)                        0.00       8.33 r
+  y[63] (out)                                             0.00       8.33 r
+  data arrival time                                                  8.33
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

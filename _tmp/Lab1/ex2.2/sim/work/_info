@@ -1,0 +1,161 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/University/_MicroLabs/Lab1/ex2.1.1/sim
+Pconstants
+!i122 39
+w1773313812
+Z0 dD:/University/_MicroLabs/Lab1/ex2.1.2/sim
+8D:/University/_MicroLabs/Lab1/ex2.1.2/sim/constants.vhd
+FD:/University/_MicroLabs/Lab1/ex2.1.2/sim/constants.vhd
+l0
+L1 1
+VP1326>FHUiQ2EO7mXZWkD1
+!s100 U5h6FaCeib26DYln1S3372
+Z1 OV;C;2020.1;71
+32
+Z2 !s110 1773499065
+!i10b 1
+Z3 !s108 1773499065.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/University/_MicroLabs/Lab1/ex2.1.2/sim/constants.vhd|
+!s107 D:/University/_MicroLabs/Lab1/ex2.1.2/sim/constants.vhd|
+!i113 1
+Z4 o-work work -2002 -explicit
+Z5 tExplicit 1 CvgOpt 0
+Emux21_1bit
+Z6 w1773491181
+Z7 DPx4 work 9 constants 0 22 P1326>FHUiQ2EO7mXZWkD1
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 40
+R0
+Z10 8D:/University/_MicroLabs/Lab1/ex2.1.2/sim/mux21_1bit.vhd
+Z11 FD:/University/_MicroLabs/Lab1/ex2.1.2/sim/mux21_1bit.vhd
+l0
+L5 1
+VmJ2D2o<D59Te4Mj^eCzAz2
+!s100 QbG?zIBZX4KSR2gaJHK`73
+R1
+32
+R2
+!i10b 1
+R3
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/University/_MicroLabs/Lab1/ex2.1.2/sim/mux21_1bit.vhd|
+Z13 !s107 D:/University/_MicroLabs/Lab1/ex2.1.2/sim/mux21_1bit.vhd|
+!i113 1
+R4
+R5
+Abhv
+R7
+R8
+R9
+Z14 DEx4 work 10 mux21_1bit 0 22 mJ2D2o<D59Te4Mj^eCzAz2
+!i122 40
+l15
+L14 4
+V;L64zLgzDGa[]6cEhgUZE1
+!s100 eS6XZkfKz>5NjLLI6L?WM3
+R1
+32
+R2
+!i10b 1
+R3
+R12
+R13
+!i113 1
+R4
+R5
+Emux21_generic
+Z15 w1773498987
+R7
+R8
+R9
+!i122 41
+R0
+Z16 8D:/University/_MicroLabs/Lab1/ex2.1.2/sim/mux21_generic.vhd
+Z17 FD:/University/_MicroLabs/Lab1/ex2.1.2/sim/mux21_generic.vhd
+l0
+L5 1
+V`cQIE5<^@k2_UMeACh@m>1
+!s100 Q;6KD[g`[UR@a^@O9_o321
+R1
+32
+R2
+!i10b 1
+R3
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/University/_MicroLabs/Lab1/ex2.1.2/sim/mux21_generic.vhd|
+Z19 !s107 D:/University/_MicroLabs/Lab1/ex2.1.2/sim/mux21_generic.vhd|
+!i113 1
+R4
+R5
+Astr
+R14
+R7
+R8
+R9
+DEx4 work 13 mux21_generic 0 22 `cQIE5<^@k2_UMeACh@m>1
+!i122 41
+l26
+L24 17
+V5n:aBXgERG?>=F>]W[H`<1
+!s100 =Ii>iH`2b0F<QdPR:3J]g1
+R1
+32
+R2
+!i10b 1
+R3
+R18
+R19
+!i113 1
+R4
+R5
+Etbmux21_generic
+Z20 w1773499052
+R7
+R8
+R9
+!i122 42
+R0
+Z21 8D:/University/_MicroLabs/Lab1/ex2.1.2/sim/tb_mux21_generic.vhd
+Z22 FD:/University/_MicroLabs/Lab1/ex2.1.2/sim/tb_mux21_generic.vhd
+l0
+L5 1
+Vz=B?;ODhUo2?`FZPIZ14n3
+!s100 TnLYR@TSMo`kE;zJ<mL^W2
+R1
+32
+R2
+!i10b 1
+R3
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/University/_MicroLabs/Lab1/ex2.1.2/sim/tb_mux21_generic.vhd|
+Z24 !s107 D:/University/_MicroLabs/Lab1/ex2.1.2/sim/tb_mux21_generic.vhd|
+!i113 1
+R4
+R5
+Atest
+R7
+R8
+R9
+Z25 DEx4 work 15 tbmux21_generic 0 22 z=B?;ODhUo2?`FZPIZ14n3
+!i122 42
+l30
+L8 33
+VZKz8l^I5G[?<cT3[OGzdQ0
+!s100 Ho2K?=cBES@?kbO3bHSQl1
+R1
+32
+R2
+!i10b 1
+R3
+R23
+R24
+!i113 1
+R4
+R5

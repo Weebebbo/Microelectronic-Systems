@@ -1,0 +1,119 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+use work.constants.all;
+
+entity acc is
+    generic(
+        NBIT : integer := NumBit
+    );
+    port(
+        A : in std_logic_vector(NBIT-1 downto 0);
+        B : in std_logic_vector(NBIT-1 downto 0);
+        CLK : in std_logic;
+        RST_n : in std_logic;
+        ACCUMULATE : in std_logic;
+        ACC_EN_n : in std_logic; -- This needs to be wired to the register.
+        Y : out std_logic_vector(NBIT-1 downto 0)
+    );
+end acc;
+
+architecture str of acc is
+    -- Internal signals needed to carry the correct signal to the correct component
+    signal mux_out : std_logic_vector(NBIT-1 downto 0);
+    -- The first carry in is obviously 0, a new operation doesn't have any carry
+    signal Ci_adder : std_logic;
+    signal add_out : std_logic_vector(NBIT-1 downto 0);
+    signal Co_adder : std_logic;
+
+    signal tmp_rst : std_logic;
+    signal tmp_acc_en : std_logic;
+    signal tmp_total_output : std_logic_vector(NBIT-1 downto 0);
+
+begin
+    tmp_rst <= not RST_n;       -- RST is active low, so in order to reset the
+                                -- logic has to be inverted.
+    tmp_acc_en <= not ACC_EN_n;
+    
+    -- We wire the entities according to the logic scheme in the .pdf file
+    mux : entity work.mux21_generic
+        port map(
+            A => B,
+            B => tmp_total_output,
+            Sel => ACCUMULATE,
+            Y => mux_out
+        );
+
+    adder : entity work.rca
+        port map(
+            A => A,
+            B => mux_out,
+            Ci => Ci_adder,
+            S => add_out,
+            Co => Co_adder 
+        );
+    
+    reg : entity work.sync_register
+        port map(
+            D => add_out,
+            CK => CLK,
+            RESET => tmp_rst,
+            Enable => tmp_acc_en,
+            Q => tmp_total_output
+         );
+
+    Y <= tmp_total_output;
+
+end str;
+
+architecture bhv of acc is
+    signal mux_out : std_logic_vector(NBIT-1 downto 0);
+    signal add_out : std_logic_vector(NBIT-1 downto 0);
+    signal tmp_total_output : std_logic_vector(NBIT-1 downto 0);
+
+begin 
+    -- The process must be sensitive to every signal
+    mux : process(B, tmp_total_output, ACCUMULATE)
+    begin
+        if ACCUMULATE='0' then
+            mux_out <= B;
+        else
+            mux_out <= tmp_total_output;
+        end if;
+    end process;
+
+    -- The adder must only act if its inputs change
+    adder : process(A, mux_out)
+    begin
+        -- We use the std_logic_unsigned library, so we can do math operations between std_logic_vectors
+        add_out <= A + mux_out;
+    end process;
+
+    -- Synchronous register: only sensitive to CLK
+    reg : process (CLK)
+    begin
+        if rising_edge(CLK) then
+            -- We check for Reset which is active low
+            if RST_n = '0' then
+                Y <= (others => '0');
+                tmp_total_output <= (others => '0'); -- Fixed the uninitialized feedback loop
+                
+            -- If Acc_En_n (which is active low) is 0, latch the new value
+            elsif ACC_EN_n = '0' then
+              Y <= add_out;
+              tmp_total_output <= add_out;
+            end if;
+        end if;
+    end process;
+
+end bhv;
+
+configuration CFG_ACC_STRUCTURAL of acc is
+    for str
+    end for;
+end CFG_ACC_STRUCTURAL;
+
+configuration CFG_ACC_BEHAVIORAL of acc is
+    for bhv
+    end for;
+end CFG_ACC_BEHAVIORAL;

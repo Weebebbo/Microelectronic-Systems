@@ -1,0 +1,542 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.3/sim
+Ecarry_generator
+Z0 w1775078010
+Z1 DPx4 work 9 constants 0 22 2<SSK;_c^a1m9CiLcl40d1
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 46
+Z5 dD:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim
+Z6 8D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/carry_generator.vhd
+Z7 FD:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/carry_generator.vhd
+l0
+L6 1
+V5Y3UNTCV:ze8gT]DTe^iW2
+!s100 M0G`hJ@kYIL6C;BTn2g6W3
+Z8 OV;C;2020.1;71
+33
+Z9 !s110 1775078915
+!i10b 1
+Z10 !s108 1775078915.000000
+Z11 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/carry_generator.vhd|
+Z12 !s107 D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/carry_generator.vhd|
+!i113 1
+Z13 o-work work -2008 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Astr
+Z15 DEx4 work 8 pg_block 0 22 ZXYX^i[ISB6=GlPV3F0Sk1
+Z16 DEx4 work 7 g_block 0 22 zUU6N3m>8f@dkNoSmDMKl3
+Z17 DEx4 work 10 pg_network 0 22 afbiV66gglPY7[K_R6P:W2
+R1
+R2
+R3
+R4
+Z18 DEx4 work 15 carry_generator 0 22 5Y3UNTCV:ze8gT]DTe^iW2
+!i122 46
+l32
+L18 165
+V]O1nzgieXzP[QWkGOFcKE0
+!s100 eJJX^Kh<<AVo^oM_NZT7k3
+R8
+33
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Ecarry_select_block
+Z19 w1774447455
+R1
+R2
+R3
+R4
+!i122 47
+R5
+Z20 8D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/carry_select_block.vhd
+Z21 FD:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/carry_select_block.vhd
+l0
+L6 1
+VXj>CHH;;Y^mLgC48z]fE=1
+!s100 C8=n;;LYgBlkh0eD=D3`S2
+R8
+33
+R9
+!i10b 1
+R10
+Z22 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/carry_select_block.vhd|
+Z23 !s107 D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/carry_select_block.vhd|
+!i113 1
+R13
+R14
+Astr
+Z24 DEx4 work 3 mux 0 22 eaj^jecaPn1h>jU`anDi52
+Z25 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z26 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z27 DEx4 work 3 rca 0 22 cRXkVZZ:KEmEhR^A;]G1R3
+R1
+R2
+R3
+R4
+Z28 DEx4 work 18 carry_select_block 0 22 Xj>CHH;;Y^mLgC48z]fE=1
+!i122 47
+l20
+L17 42
+VB;?<4O330oGLz;djPz]1g2
+!s100 @`2V1_6OzeISU6kb6n6>G3
+R8
+33
+R9
+!i10b 1
+R10
+R22
+R23
+!i113 1
+R13
+R14
+Pconstants
+!i122 48
+Z29 w1774854070
+R5
+Z30 8D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/constants.vhd
+Z31 FD:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/constants.vhd
+l0
+L1 1
+V2<SSK;_c^a1m9CiLcl40d1
+!s100 cZF_1PEMh@0IH2lzeB39H0
+R8
+33
+b1
+R9
+!i10b 1
+R10
+Z32 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/constants.vhd|
+Z33 !s107 D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/constants.vhd|
+!i113 1
+R13
+R14
+Bbody
+R1
+!i122 48
+l0
+L10 1
+VC]_3=ljm?a=NkOFEBNVQ23
+!s100 R=k4H1cJD6A>0_i:Q^EL10
+R8
+33
+R9
+!i10b 1
+R10
+R32
+R33
+!i113 1
+R13
+R14
+Efa
+Z34 w1774445979
+R3
+R4
+!i122 49
+R5
+Z35 8D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/fa.vhd
+Z36 FD:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/fa.vhd
+l0
+L4 1
+VYX@Ghd2?[h:zROGJmNf8I3
+!s100 ?=7GSNh2i_P381A[`Sd]i2
+R8
+33
+R9
+!i10b 1
+R10
+Z37 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/fa.vhd|
+Z38 !s107 D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/fa.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R3
+R4
+DEx4 work 2 fa 0 22 YX@Ghd2?[h:zROGJmNf8I3
+!i122 49
+l14
+L12 9
+V6mXW4D]meXQB^W9<Wm0MF0
+!s100 UOzdNP2aoRCWzh2Z4K>?c1
+R8
+33
+R9
+!i10b 1
+R10
+R37
+R38
+!i113 1
+R13
+R14
+Eg_block
+Z39 w1775057300
+R1
+R3
+R4
+!i122 50
+R5
+Z40 8D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/g_block.vhd
+Z41 FD:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/g_block.vhd
+l0
+L5 1
+VzUU6N3m>8f@dkNoSmDMKl3
+!s100 8mhZ3`E0RDZGj>310QVjl3
+R8
+33
+Z42 !s110 1775078916
+!i10b 1
+Z43 !s108 1775078916.000000
+Z44 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/g_block.vhd|
+Z45 !s107 D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/g_block.vhd|
+!i113 1
+R13
+R14
+Abhv
+R1
+R3
+R4
+R16
+!i122 50
+l15
+L14 5
+Vae`hhha=c7a@<]?1TJ16e3
+!s100 MWaHB6a?7@l6;hngd`ZCG1
+R8
+33
+R42
+!i10b 1
+R43
+R44
+R45
+!i113 1
+R13
+R14
+Emux
+Z46 w1774447558
+R1
+R3
+R4
+!i122 51
+R5
+Z47 8D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/mux.vhd
+Z48 FD:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/mux.vhd
+l0
+L5 1
+Veaj^jecaPn1h>jU`anDi52
+!s100 ScO7jhEeUQCk>`YkbZK7N3
+R8
+33
+R42
+!i10b 1
+R43
+Z49 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/mux.vhd|
+Z50 !s107 D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/mux.vhd|
+!i113 1
+R13
+R14
+Abhv
+R1
+R3
+R4
+R24
+!i122 51
+l18
+L17 4
+Vi^;3V;ceUGL2H;IZcIEd[0
+!s100 <6U^;F;2D5^z[zV>]TYAT0
+R8
+33
+R42
+!i10b 1
+R43
+R49
+R50
+!i113 1
+R13
+R14
+Ep4_adder
+Z51 w1775078519
+R1
+R2
+R3
+R4
+!i122 52
+R5
+Z52 8D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/P4_adder.vhd
+Z53 FD:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/P4_adder.vhd
+l0
+L6 1
+VPCIkIP3RiJ>W^9kT0BnfE3
+!s100 [?9DU6`06YG>B]IeZPmJQ3
+R8
+33
+R42
+!i10b 1
+R43
+Z54 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/P4_adder.vhd|
+Z55 !s107 D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/P4_adder.vhd|
+!i113 1
+R13
+R14
+Astr
+Z56 DEx4 work 13 sum_generator 0 22 bPbVhQbDg7liSCFXhk:H33
+R18
+R1
+R2
+R3
+R4
+DEx4 work 8 p4_adder 0 22 PCIkIP3RiJ>W^9kT0BnfE3
+!i122 52
+l22
+L19 31
+VTMYX=@Q:a`=m3?]EA0[LV3
+!s100 DzDYWG0W1=`nDL>8b[NSD2
+R8
+33
+R42
+!i10b 1
+R43
+R54
+R55
+!i113 1
+R13
+R14
+Epg_block
+Z57 w1775057574
+R1
+R3
+R4
+!i122 53
+R5
+Z58 8D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/pg_block.vhd
+Z59 FD:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/pg_block.vhd
+l0
+L5 1
+VZXYX^i[ISB6=GlPV3F0Sk1
+!s100 3T3ANjEo]CV[2PdSDl0Lh1
+R8
+33
+R42
+!i10b 1
+R43
+Z60 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/pg_block.vhd|
+Z61 !s107 D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/pg_block.vhd|
+!i113 1
+R13
+R14
+Abhv
+R1
+R3
+R4
+R15
+!i122 53
+l16
+L15 8
+V^lgQ:WjDD[X`BXc2<;^AJ3
+!s100 T?=joFV0mo=J`e58J1UPV0
+R8
+33
+R42
+!i10b 1
+R43
+R60
+R61
+!i113 1
+R13
+R14
+Epg_network
+Z62 w1774947028
+R1
+R3
+R4
+!i122 54
+R5
+Z63 8D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/pg_network.vhd
+Z64 FD:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/pg_network.vhd
+l0
+L5 1
+VafbiV66gglPY7[K_R6P:W2
+!s100 GLSg_I4c^``WTk1RjZ23g0
+R8
+33
+R42
+!i10b 1
+R43
+Z65 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/pg_network.vhd|
+Z66 !s107 D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/pg_network.vhd|
+!i113 1
+R13
+R14
+Artl
+R1
+R3
+R4
+R17
+!i122 54
+l19
+L16 14
+VDEIFaA<e3H;i4RC^cGg@d0
+!s100 `egHRK0JYHkK`Q?n36azW0
+R8
+33
+R42
+!i10b 1
+R43
+R65
+R66
+!i113 1
+R13
+R14
+Erca
+Z67 w1774447585
+R1
+R25
+R26
+R3
+R4
+!i122 55
+R5
+Z68 8D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/rca.vhd
+Z69 FD:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/rca.vhd
+l0
+L6 1
+VcRXkVZZ:KEmEhR^A;]G1R3
+!s100 ]EMPL81BTKGzGiWnJ5^Gc1
+R8
+33
+R42
+!i10b 1
+R43
+Z70 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/rca.vhd|
+Z71 !s107 D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/rca.vhd|
+!i113 1
+R13
+R14
+Astructural
+R1
+R25
+R26
+R3
+R4
+R27
+!i122 55
+l36
+L19 35
+V3f3ZeOoGX4z]=aK^3J3;g1
+!s100 m>mN0Wn=zObLZ;SAIVaCB1
+R8
+33
+R42
+!i10b 1
+R43
+R70
+R71
+!i113 1
+R13
+R14
+Esum_generator
+Z72 w1775078341
+R1
+R2
+R3
+R4
+!i122 56
+R5
+Z73 8D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/sum_generator.vhd
+Z74 FD:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/sum_generator.vhd
+l0
+L6 1
+VbPbVhQbDg7liSCFXhk:H33
+!s100 d3kUK`gceHggXi`^F1U>`1
+R8
+33
+R42
+!i10b 1
+R43
+Z75 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/sum_generator.vhd|
+Z76 !s107 D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/sum_generator.vhd|
+!i113 1
+R13
+R14
+Astr
+R28
+R1
+R2
+R3
+R4
+R56
+!i122 56
+l24
+L22 17
+Vn=jUT]=A5SRL@c9_b:4`o1
+!s100 VV:aBG_FeB[BGGXldGfcz3
+R8
+33
+R42
+!i10b 1
+R43
+R75
+R76
+!i113 1
+R13
+R14
+Etb_p4_adder
+Z77 w1775078910
+R2
+R3
+R4
+!i122 57
+R5
+Z78 8D:\University\_MicroLabs\_tmp\Lab2\cap2\ex2.1.4\sim\tb_p4_adder.vhd
+Z79 FD:\University\_MicroLabs\_tmp\Lab2\cap2\ex2.1.4\sim\tb_p4_adder.vhd
+l0
+L6 1
+V3I7aSWEcZJGQbkh^K]7OB1
+!s100 1lI[AAoM[FC>T?6SODgd;3
+R8
+33
+R42
+!i10b 1
+R43
+Z80 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:\University\_MicroLabs\_tmp\Lab2\cap2\ex2.1.4\sim\tb_p4_adder.vhd|
+!s107 D:\University\_MicroLabs\_tmp\Lab2\cap2\ex2.1.4\sim\tb_p4_adder.vhd|
+!i113 1
+R13
+R14
+Atest
+R2
+R3
+R4
+Z81 DEx4 work 11 tb_p4_adder 0 22 3I7aSWEcZJGQbkh^K]7OB1
+!i122 57
+l46
+Z82 L9 161
+V5E5XQmn^fiY3KzMi0PInz3
+!s100 B9_j9GPnh8z]>X=i5KOZ?2
+R8
+33
+R42
+!i10b 1
+R43
+R80
+Z83 !s107 D:\University\_MicroLabs\_tmp\Lab2\cap2\ex2.1.4\sim\tb_p4_adder.vhd|
+!i113 1
+R13
+R14

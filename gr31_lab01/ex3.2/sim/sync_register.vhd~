@@ -1,0 +1,31 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+work.constants.all;
+
+entity sync_register is
+  generic (
+    NBIT : integer := NumBit
+  );
+  port (
+    D     : in  std_logic_vector(NBIT - 1 downto 0);
+    CK    : in  std_logic;
+    RESET : in  std_logic;
+    Q     : out std_logic_vector(NBIT - 1 downto 0)
+  );
+end sync_register;
+
+architecture str of sync_register is
+
+begin
+
+  Reg : for i in 0 to NBIT-1 generate
+    sync_fd : entity work.fd
+      port map (
+        D     => D(i),
+        CK    => CK,
+        RESET => RESET,
+        Q     => Q(i)
+      );
+  end generate Reg;
+
+end str;

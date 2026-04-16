@@ -1,0 +1,480 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/University/ModelSim_Starter_Edition
+Eacc
+Z0 w1773598118
+Z1 DPx4 work 9 constants 0 22 bTPjQff:C7E7^3X5?VAUz2
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 97
+Z6 dD:/University/_MicroLabs/Lab1/ex6.1
+Z7 8D:/University/_MicroLabs/Lab1/ex6.1/acc.vhd
+Z8 FD:/University/_MicroLabs/Lab1/ex6.1/acc.vhd
+l0
+L6 1
+Vdm]CTN^h@G`7@;I7<z7V^3
+!s100 km9V_RL0nY_MGSR^6Un_Z0
+Z9 OV;C;2020.1;71
+33
+Z10 !s110 1773598124
+!i10b 1
+Z11 !s108 1773598124.000000
+Z12 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/University/_MicroLabs/Lab1/ex6.1/acc.vhd|
+Z13 !s107 D:/University/_MicroLabs/Lab1/ex6.1/acc.vhd|
+!i113 1
+Z14 o-work work -2008 -explicit
+Z15 tExplicit 1 CvgOpt 0
+Abhv
+R1
+R2
+R3
+R4
+R5
+Z16 DEx4 work 3 acc 0 22 dm]CTN^h@G`7@;I7<z7V^3
+!i122 97
+l63
+L59 38
+V<]ejY0ccLHR3cKfNXiBh32
+!s100 ]7z;UheFZn91UGRBnK@QX0
+R9
+33
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Astr
+Z17 DEx4 work 13 sync_register 0 22 6UX08A4z_6oaZl=hgg]9U1
+Z18 DEx4 work 3 rca 0 22 [D0FM_PGzWl7F8z5[SoRH3
+Z19 DEx4 work 13 mux21_generic 0 22 ;ZfPJ<QN8LYLO@WHGFLG43
+R1
+R2
+R3
+R4
+R5
+R16
+!i122 97
+l29
+L21 37
+VCR;FI^=ZNDnd=DYema;XX3
+!s100 e;gRl24gFOKEdZ8fSC;W?1
+R9
+33
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Ccfg_acc_behavioral
+eacc
+abhv
+DAx4 work 3 acc 3 bhv 22 <]ejY0ccLHR3cKfNXiBh32
+R1
+R2
+R3
+R4
+R5
+R16
+!i122 97
+R0
+R6
+R7
+R8
+l0
+L103 1
+V]@d^[IW_`>QCj2iGRGF`;2
+!s100 <z0D8LCAW:2L5=T[8HQEX3
+R9
+33
+R10
+!i10b 0
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Ccfg_acc_structural
+eacc
+astr
+R17
+R18
+R19
+DAx4 work 3 acc 3 str 22 CR;FI^=ZNDnd=DYema;XX3
+R1
+R2
+R3
+R4
+R5
+R16
+!i122 97
+R0
+R6
+R7
+R8
+l0
+L98 1
+VIbD7O:j;lR5J^<GGZAWD?0
+!s100 PS;m]F3CWPoR3LfXQ_c4G3
+R9
+33
+R10
+!i10b 0
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Ccfg_testacc
+Z20 etb_acc
+Z21 aTEST
+R16
+DCx4 work 18 cfg_acc_behavioral 0 22 ]@d^[IW_`>QCj2iGRGF`;2
+DCx4 work 18 cfg_acc_structural 0 22 IbD7O:j;lR5J^<GGZAWD?0
+DAx4 work 6 tb_acc 4 test 22 ;zo0fo=<k[>EDWU>o_kW?2
+R1
+R2
+R3
+R4
+R5
+Z22 DEx4 work 6 tb_acc 0 22 NU7PoSiGSPZdUG0ko?0Xi1
+!i122 103
+Z23 w1773598090
+R6
+Z24 8D:/University/_MicroLabs/Lab1/ex6.1/tb_acc.vhd
+Z25 FD:/University/_MicroLabs/Lab1/ex6.1/tb_acc.vhd
+l0
+Z26 L133 1
+VMo>niIYeW48L5<KAJJ0lG0
+!s100 h;c`^L6AYf6Y>feT0d]Bz1
+R9
+33
+Z27 !s110 1773598125
+!i10b 0
+Z28 !s108 1773598125.000000
+Z29 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/University/_MicroLabs/Lab1/ex6.1/tb_acc.vhd|
+Z30 !s107 D:/University/_MicroLabs/Lab1/ex6.1/tb_acc.vhd|
+!i113 1
+R14
+R15
+Ccfg_testacc_behavioral
+R20
+R21
+R16
+DCx4 work 18 cfg_acc_behavioral 0 22 cTLA8P5CzM2WH][?JQlbg2
+Z31 DAx4 work 6 tb_acc 4 test 22 KROd@R@OIYI[dBZgln>=[0
+R1
+R2
+R3
+R4
+R5
+R22
+!i122 33
+Z32 w1773597085
+R6
+R24
+R25
+l0
+L141 1
+Vek]UFdRo94OHQH;nzH8Ee1
+!s100 KfDl[d_3HmcmHSQkO?[eI3
+R9
+33
+Z33 !s110 1773597278
+!i10b 0
+Z34 !s108 1773597278.000000
+R29
+R30
+!i113 1
+R14
+R15
+Ccfg_testacc_structural
+R20
+R21
+R16
+DCx4 work 18 cfg_acc_structural 0 22 TT0_FJKfAlBbYkDKWHO@61
+R31
+R1
+R2
+R3
+R4
+R5
+R22
+!i122 33
+R32
+R6
+R24
+R25
+l0
+R26
+VCIZ8GOKo72R?M`bB7Qk7B1
+!s100 V0BbUT0lcYMSaV;ZTD5^^0
+R9
+33
+R33
+!i10b 0
+R34
+R29
+R30
+!i113 1
+R14
+R15
+Pconstants
+!i122 98
+w1773590555
+R6
+8D:/University/_MicroLabs/Lab1/ex6.1/constants.vhd
+FD:/University/_MicroLabs/Lab1/ex6.1/constants.vhd
+l0
+L1 1
+VbTPjQff:C7E7^3X5?VAUz2
+!s100 G<DXh3YZ=GOS62_0IL]na1
+R9
+33
+R10
+!i10b 1
+R11
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/University/_MicroLabs/Lab1/ex6.1/constants.vhd|
+!s107 D:/University/_MicroLabs/Lab1/ex6.1/constants.vhd|
+!i113 1
+R14
+R15
+Efd
+Z35 w1773590374
+R4
+R5
+!i122 99
+R6
+Z36 8D:/University/_MicroLabs/Lab1/ex6.1/fd.vhd
+Z37 FD:/University/_MicroLabs/Lab1/ex6.1/fd.vhd
+l0
+L4 1
+V8oI6NhWVm<dfULj5`W^?I2
+!s100 QZC9OZhZ0WgFeZ0j>FMi?2
+R9
+33
+R10
+!i10b 1
+R11
+Z38 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/University/_MicroLabs/Lab1/ex6.1/fd.vhd|
+Z39 !s107 D:/University/_MicroLabs/Lab1/ex6.1/fd.vhd|
+!i113 1
+R14
+R15
+Apippo
+R4
+R5
+Z40 DEx4 work 2 fd 0 22 8oI6NhWVm<dfULj5`W^?I2
+!i122 99
+l18
+L15 20
+V77]BU<<iSDS858dRFAT6a1
+!s100 7:6[^Ce<Oh2hVX]AZn2kC3
+R9
+33
+R10
+!i10b 1
+R11
+R38
+R39
+!i113 1
+R14
+R15
+Emux21_generic
+Z41 w1773586270
+R1
+R4
+R5
+!i122 100
+R6
+Z42 8D:/University/_MicroLabs/Lab1/ex6.1/mux21_generic.vhd
+Z43 FD:/University/_MicroLabs/Lab1/ex6.1/mux21_generic.vhd
+l0
+L5 1
+V;ZfPJ<QN8LYLO@WHGFLG43
+!s100 3<]KZLXmFJ`jkOh:XN73N0
+R9
+33
+R10
+!i10b 1
+R11
+Z44 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/University/_MicroLabs/Lab1/ex6.1/mux21_generic.vhd|
+Z45 !s107 D:/University/_MicroLabs/Lab1/ex6.1/mux21_generic.vhd|
+!i113 1
+R14
+R15
+Abhv
+R1
+R4
+R5
+R19
+!i122 100
+l26
+L25 4
+VH;:^2>iYm<;RjzJh7_;gj1
+!s100 Wl>z_jUSLN0^G54LAXEkQ1
+R9
+33
+R10
+!i10b 1
+R11
+R44
+R45
+!i113 1
+R14
+R15
+Erca
+Z46 w1773590387
+R1
+R2
+R3
+R4
+R5
+!i122 101
+R6
+Z47 8D:/University/_MicroLabs/Lab1/ex6.1/rca.vhd
+Z48 FD:/University/_MicroLabs/Lab1/ex6.1/rca.vhd
+l0
+L6 1
+V[D0FM_PGzWl7F8z5[SoRH3
+!s100 4LL`<Imlz_K_9flODRX592
+R9
+33
+R10
+!i10b 1
+R11
+Z49 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/University/_MicroLabs/Lab1/ex6.1/rca.vhd|
+Z50 !s107 D:/University/_MicroLabs/Lab1/ex6.1/rca.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R1
+R2
+R3
+R4
+R5
+R18
+!i122 101
+l31
+L23 23
+V3ZF_1<DAKd?CzjH<AW51U3
+!s100 G2cPQkLOjG[Co>lAUl5T31
+R9
+33
+R10
+!i10b 1
+R11
+R49
+R50
+!i113 1
+R14
+R15
+Esync_register
+Z51 w1773590380
+R1
+R4
+R5
+!i122 102
+R6
+Z52 8D:/University/_MicroLabs/Lab1/ex6.1/sync_register.vhd
+Z53 FD:/University/_MicroLabs/Lab1/ex6.1/sync_register.vhd
+l0
+L5 1
+V6UX08A4z_6oaZl=hgg]9U1
+!s100 C8?G^aU_PI_e2zM15EkFN2
+R9
+33
+R27
+!i10b 1
+R11
+Z54 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|D:/University/_MicroLabs/Lab1/ex6.1/sync_register.vhd|
+Z55 !s107 D:/University/_MicroLabs/Lab1/ex6.1/sync_register.vhd|
+!i113 1
+R14
+R15
+Astr
+R40
+R1
+R4
+R5
+R17
+!i122 102
+l20
+L18 16
+Va335Y1M9k]e25Y63Fja>M0
+!s100 <dUoDH7odYU?lR8KNNC]b3
+R9
+33
+R27
+!i10b 1
+R11
+R54
+R55
+!i113 1
+R14
+R15
+Etb_acc
+R23
+R1
+R2
+R3
+R4
+R5
+!i122 103
+R6
+R24
+R25
+l0
+L9 1
+VNU7PoSiGSPZdUG0ko?0Xi1
+!s100 e=6B398oJ7;GZ4JMcd^ig3
+R9
+33
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R14
+R15
+Atest
+R1
+R2
+R3
+R4
+R5
+R22
+!i122 103
+l36
+Z56 L15 114
+Z57 V;zo0fo=<k[>EDWU>o_kW?2
+Z58 !s100 ;?LLcX;l:0aeW[Oe^j?VJ2
+R9
+33
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R14
+R15

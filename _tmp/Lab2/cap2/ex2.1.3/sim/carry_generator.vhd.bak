@@ -1,0 +1,16 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use work.constants.all;
+
+entity carry_generator is 
+	generic (
+		NBIT :		integer := Full_lenghtOf_Bits;
+		NBIT_PER_BLOCK: integer := NumBits);
+	port (
+		a :		in	std_logic_vector(NBIT-1 downto 0);
+		b :		in	std_logic_vector(NBIT-1 downto 0);
+		cin :	in	std_logic;
+		co :	out	std_logic_vector((NumBlocks)-1 downto 0));
+
+end carry_generator;

@@ -1,0 +1,40 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use work.constants.all;
+
+entity booth_encoder is
+	generic(
+		NBIT : integer := NumBits
+	);
+	port(
+		a : in std_logic_vector(NBIT-1 downto 0);
+		-- b has a fixed lenght of 3 bits
+		b : in std_logic_vector(2 downto 0);
+		-- has to be one bit longer since, if a is 4 bits long and a = "1000", if we do 2*A 
+		-- the output is "10000" so has to be 1 bit longer.
+		vp : out std_logic_vector(NBIT downto 0)
+	);
+end booth_encoder;
+
+architecture bhv of booth_encoder is
+	
+	begin
+	encoding : process(b)
+		begin
+		-- Here we implement the truth table from the lecture notes.
+		-- In order, we have b[i+1], b[i], b[i-1]
+		case b is
+			when "000" => vp <= (others => '0');
+			when "001" => vp <= a;
+			when "010" => vp <= a;
+			when "011" => vp <= std_logic_vector(2*signed(a));
+			when "100" => vp <= std_logic_vector(-2*signed(a));
+			when "101" => vp <= std_logic_vector(-signed(a));
+			when "110" => vp <= std_logic_vector(-signed(a));
+			when "111" => vp <= (others => '0');
+			-- generic case, it never happens, but the compiler could give an error if the generic case isn't inserted
+			when others => vp <= (others => '0');
+		end case;
+	end process;
+end bhv;

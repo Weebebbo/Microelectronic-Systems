@@ -1,0 +1,84 @@
+D:/University/_MicroLabs/Lab1/ex6.1/tb_acc.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/University/_MicroLabs/Lab1/ex6.1/tb_acc.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package CONSTANTS
+-- Compiling entity tb_acc
+-- Compiling architecture TEST of tb_acc
+-- Compiling configuration CFG_TESTACC
+-- Loading entity tb_acc
+-- Loading architecture TEST of tb_acc
+-- Loading entity acc
+-- Loading configuration cfg_acc_structural
+-- Loading configuration cfg_acc_behavioral
+
+} {} {}} D:/University/_MicroLabs/Lab1/ex6.1/constants.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/University/_MicroLabs/Lab1/ex6.1/constants.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Compiling package CONSTANTS
+
+} {} {}} D:/University/_MicroLabs/Lab1/ex6.1/mux21_generic.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/University/_MicroLabs/Lab1/ex6.1/mux21_generic.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package CONSTANTS
+-- Compiling entity mux21_generic
+-- Compiling architecture bhv of mux21_generic
+
+} {} {}} D:/University/_MicroLabs/Lab1/ex6.1/sync_register.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/University/_MicroLabs/Lab1/ex6.1/sync_register.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package CONSTANTS
+-- Compiling entity sync_register
+-- Compiling architecture str of sync_register
+-- Loading entity FD
+
+} {} {}} D:/University/_MicroLabs/Lab1/ex6.1/fd.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/University/_MicroLabs/Lab1/ex6.1/fd.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FD
+-- Compiling architecture PIPPO of FD
+
+} {} {}} D:/University/_MicroLabs/Lab1/ex6.1/rca.vhd {2 {vcom -work work -2008 -explicit -stats=none D:/University/_MicroLabs/Lab1/ex6.1/rca.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package CONSTANTS
+-- Compiling entity RCA
+-- Compiling architecture BEHAVIORAL of RCA
+** Warning: D:/University/_MicroLabs/Lab1/ex6.1/rca.vhd(37): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+
+} {} {}} D:/University/_MicroLabs/Lab1/ex6.1/acc.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/University/_MicroLabs/Lab1/ex6.1/acc.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package CONSTANTS
+-- Compiling entity acc
+-- Compiling architecture str of acc
+-- Loading entity mux21_generic
+-- Loading entity RCA
+-- Loading entity sync_register
+-- Compiling architecture bhv of acc
+-- Loading entity acc
+-- Compiling configuration CFG_ACC_STRUCTURAL
+-- Loading entity acc
+-- Loading architecture str of acc
+-- Compiling configuration CFG_ACC_BEHAVIORAL
+-- Loading entity acc
+-- Loading architecture bhv of acc
+
+} {} {}}

@@ -1,0 +1,4 @@
+package alu_types is
+	type TYPE_OP is (ADD, SUB, MULT, BITAND, BITOR, BITXOR, FUNCLSL,
+					 FUNCLSR, FUNCLSL_B, FUNCLSR_B, FUNCRL, FUNCRR, FUNCRL_B, FUNCRR_B);
+end alu_types;

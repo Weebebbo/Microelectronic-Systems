@@ -1,0 +1,37 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+-- We create a parametric register by creating a variable to set the input lenght in bits
+entity async_register is
+    generic (
+        NBIT : integer := 16
+    );
+    
+    -- D and Q are the only signals that have more than one bit
+    -- CK and RESET are either High or Low
+    port(
+        D : in std_logic_vector(NBIT-1 downto 0);
+        CK : in std_logic;
+        RESET : in std_logic;
+        Q : out std_logic_vector(NBIT-1 downto 0)
+    );
+end async_register;
+
+-- The idea behind this architecure is creating as many async. flip-flops as NBIT
+-- and wiring the inputs/outputs accordingly 
+architecture str of async_register is
+
+begin 
+    Reg : for i in 0 to NBIT-1 generate
+
+        async_fd : entity work.fd 
+            port map(
+                D => D(i),
+                CK => CK,
+                RESET => RESET,
+                Q => Q(i) 
+            );
+
+        end generate Register;
+
+end str;

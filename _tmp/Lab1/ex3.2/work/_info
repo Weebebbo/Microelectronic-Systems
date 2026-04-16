@@ -1,0 +1,136 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/University/_MicroLabs/Lab1/ex3.2.1
+Efd
+Z0 w1773499556
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 15
+Z3 dD:/University/_MicroLabs/Lab1/ex3.2.2
+Z4 8D:/University/_MicroLabs/Lab1/ex3.2.2/fd.vhd
+Z5 FD:/University/_MicroLabs/Lab1/ex3.2.2/fd.vhd
+l0
+L4 1
+V43XeJoC@joFMDL>8E9B1>2
+!s100 5Ah>[R?SSFVYK=4UZmM>N2
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1773502694
+!i10b 1
+Z8 !s108 1773502694.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/University/_MicroLabs/Lab1/ex3.2.2/fd.vhd|
+Z10 !s107 D:/University/_MicroLabs/Lab1/ex3.2.2/fd.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Apippo
+R1
+R2
+Z13 DEx4 work 2 fd 0 22 43XeJoC@joFMDL>8E9B1>2
+!i122 15
+l14
+L12 15
+V`D]a5S^Wbnj2e?j3K5i9X3
+!s100 Y5;?^[hjk3VmofmhKb>^82
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Esync_register
+Z14 w1773502686
+R1
+R2
+!i122 16
+R3
+Z15 8D:/University/_MicroLabs/Lab1/ex3.2.2/sync_register.vhd
+Z16 FD:/University/_MicroLabs/Lab1/ex3.2.2/sync_register.vhd
+l0
+L4 1
+V1:4dJEVIdVc:_b3@cXnMl0
+!s100 HaUD@`HJHcn5m1J>NOKGe1
+R6
+32
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/University/_MicroLabs/Lab1/ex3.2.2/sync_register.vhd|
+Z18 !s107 D:/University/_MicroLabs/Lab1/ex3.2.2/sync_register.vhd|
+!i113 1
+R11
+R12
+Astr
+R13
+R1
+R2
+Z19 DEx4 work 13 sync_register 0 22 1:4dJEVIdVc:_b3@cXnMl0
+!i122 16
+l18
+L16 15
+VkjHdje>^kWHKTi364Jf;<2
+!s100 S;UBdVd0W9GABa^[iLe1S0
+R6
+32
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
+Etb_sync_register
+Z20 w1773502593
+R1
+R2
+!i122 17
+R3
+Z21 8D:/University/_MicroLabs/Lab1/ex3.2.2/tb_sync_register.vhd
+Z22 FD:/University/_MicroLabs/Lab1/ex3.2.2/tb_sync_register.vhd
+l0
+L4 1
+Vd^2@TzY8NWO_?Y^>]_R>22
+!s100 1g7DL:^02XRfP[FTBgYI:1
+R6
+32
+R7
+!i10b 1
+R8
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/University/_MicroLabs/Lab1/ex3.2.2/tb_sync_register.vhd|
+Z24 !s107 D:/University/_MicroLabs/Lab1/ex3.2.2/tb_sync_register.vhd|
+!i113 1
+R11
+R12
+Atest
+R19
+R1
+R2
+Z25 DEx4 work 16 tb_sync_register 0 22 d^2@TzY8NWO_?Y^>]_R>22
+!i122 17
+l17
+Z26 L8 38
+Z27 V8dI2ZkFHz8JYI7lFhkiPX2
+Z28 !s100 SYNIG>]AJGICERW`0:^0[1
+R6
+32
+R7
+!i10b 1
+R8
+R23
+R24
+!i113 1
+R11
+R12

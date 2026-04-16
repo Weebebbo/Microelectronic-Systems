@@ -1,0 +1,33 @@
+D:/University/_MicroLabs/Lab1/ex2.1.1/sim/constants.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/University/_MicroLabs/Lab1/ex2.1.1/sim/constants.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Compiling package CONSTANTS
+
+} {} {}} D:/University/_MicroLabs/Lab1/ex2.1.1/sim/mux21_generic.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/University/_MicroLabs/Lab1/ex2.1.1/sim/mux21_generic.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package CONSTANTS
+-- Compiling entity mux21_generic
+-- Compiling architecture bhv of mux21_generic
+
+} {} {}} D:/University/_MicroLabs/Lab1/ex2.1.1/sim/tb_mux21_generic.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/University/_MicroLabs/Lab1/ex2.1.1/sim/tb_mux21_generic.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package CONSTANTS
+-- Compiling entity TBMUX21_GENERIC
+-- Compiling architecture TEST of TBMUX21_GENERIC
+
+} {} {}} D:/University/_MicroLabs/Lab1/ex2.1.1/sim/mux21_1bit.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/University/_MicroLabs/Lab1/ex2.1.1/sim/mux21_1bit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package CONSTANTS
+-- Compiling entity mux21_1bit
+-- Compiling architecture bhv of mux21_1bit
+
+} {} {}}

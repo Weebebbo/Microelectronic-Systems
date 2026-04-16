@@ -1,0 +1,211 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/University/ModelSim_Starter_Edition
+Ealu
+Z0 w1773677631
+Z1 DPx4 work 9 alu_types 0 22 bDjT?D@lUjIKcgXRMUf]G1
+Z2 DPx4 work 9 constants 0 22 RN<jmQVABzMYe4JF=`eDa1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 180
+Z7 dD:/University/_MicroLabs/Lab1/ex7.1
+Z8 8D:/University/_MicroLabs/Lab1/ex7.1/alu.vhd
+Z9 FD:/University/_MicroLabs/Lab1/ex7.1/alu.vhd
+l0
+L8 1
+VA9FDce:f2Pj19n:`8Jn7;1
+!s100 NF;M^SWH3K`=fY9AeNn@:0
+Z10 OV;C;2020.1;71
+32
+Z11 !s110 1773745565
+!i10b 1
+Z12 !s108 1773745565.000000
+Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/University/_MicroLabs/Lab1/ex7.1/alu.vhd|
+Z14 !s107 D:/University/_MicroLabs/Lab1/ex7.1/alu.vhd|
+!i113 1
+Z15 o-work work -2002 -explicit
+Z16 tExplicit 1 CvgOpt 0
+Abehavior
+R1
+R2
+R3
+R4
+R5
+R6
+Z17 DEx4 work 3 alu 0 22 A9FDce:f2Pj19n:`8Jn7;1
+!i122 180
+l16
+L15 90
+VnBc0::<H<jbCA9Z5?Pc:b3
+!s100 [3;NCh6CXAgzmU4:;W:XZ1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Calu_test
+eTBALU
+aTEST
+R17
+DCx4 work 18 cfg_alu_behavioral 0 22 EXMk3fYIHRVi0Hg^5FHam0
+DAx4 work 5 tbalu 4 test 22 UQ9W<oIKFb1@7]YDd0N0D0
+R1
+R2
+R3
+R4
+R5
+R6
+Z18 DEx4 work 5 tbalu 0 22 nNDN@o7IAAe1R@Sa6j9^W3
+!i122 181
+Z19 w1773693107
+R7
+Z20 8D:/University/_MicroLabs/Lab1/ex7.1/tb_alu.vhd
+Z21 FD:/University/_MicroLabs/Lab1/ex7.1/tb_alu.vhd
+l0
+L60 1
+V[7?0^1U4icF@gl[]`O<Lb3
+!s100 7ShlzQRT[Q@fSmE4XI66i3
+R10
+32
+R11
+!i10b 0
+R12
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/University/_MicroLabs/Lab1/ex7.1/tb_alu.vhd|
+Z23 !s107 D:/University/_MicroLabs/Lab1/ex7.1/tb_alu.vhd|
+!i113 1
+R15
+R16
+Palu_types
+!i122 178
+w1773673280
+R7
+8D:/University/_MicroLabs/Lab1/ex7.1/alu_types.vhd
+FD:/University/_MicroLabs/Lab1/ex7.1/alu_types.vhd
+l0
+L1 1
+VbDjT?D@lUjIKcgXRMUf]G1
+!s100 G]G8=mKSZ94Nzh]IB9QCa3
+R10
+32
+R11
+!i10b 1
+!s108 1773745564.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/University/_MicroLabs/Lab1/ex7.1/alu_types.vhd|
+!s107 D:/University/_MicroLabs/Lab1/ex7.1/alu_types.vhd|
+!i113 1
+R15
+R16
+Ccfg_alu_behavioral
+eALU
+aBEHAVIOR
+DAx4 work 3 alu 8 behavior 22 nBc0::<H<jbCA9Z5?Pc:b3
+R1
+R2
+R3
+R4
+R5
+R6
+R17
+!i122 180
+R0
+R7
+R8
+R9
+l0
+L106 1
+VEXMk3fYIHRVi0Hg^5FHam0
+!s100 ;B46UZzRbM3iH6z5>^NlV3
+R10
+32
+R11
+!i10b 0
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Pconstants
+!i122 179
+w1773598951
+R7
+8D:/University/_MicroLabs/Lab1/ex7.1/constants.vhd
+FD:/University/_MicroLabs/Lab1/ex7.1/constants.vhd
+l0
+L1 1
+VRN<jmQVABzMYe4JF=`eDa1
+!s100 [J5[>g8HH=fbSC5QZck6D2
+R10
+32
+R11
+!i10b 1
+R12
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/University/_MicroLabs/Lab1/ex7.1/constants.vhd|
+!s107 D:/University/_MicroLabs/Lab1/ex7.1/constants.vhd|
+!i113 1
+R15
+R16
+Etbalu
+R19
+R1
+R2
+R3
+R4
+R5
+R6
+!i122 181
+R7
+R20
+R21
+l0
+L9 1
+VnNDN@o7IAAe1R@Sa6j9^W3
+!s100 4XJVz7fYGYPzncCg0@6X]1
+R10
+32
+R11
+!i10b 1
+R12
+R22
+R23
+!i113 1
+R15
+R16
+Atest
+R1
+R2
+R3
+R4
+R5
+R6
+R18
+!i122 181
+l26
+Z24 L12 47
+Z25 VUQ9W<oIKFb1@7]YDd0N0D0
+Z26 !s100 ao0WH^T6^lQNza[2E@dcm2
+R10
+32
+R11
+!i10b 1
+R12
+R22
+R23
+!i113 1
+R15
+R16

@@ -1,0 +1,110 @@
+D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/constants.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/constants.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Compiling package CONSTANTS
+-- Compiling package body CONSTANTS
+-- Loading package CONSTANTS
+
+} {} {}} D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/carry_generator.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/carry_generator.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package CONSTANTS
+-- Compiling entity carry_generator
+-- Compiling architecture str of carry_generator
+-- Loading entity pg_network
+-- Loading entity g_block
+-- Loading entity pg_block
+
+} {} {}} D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/tb_p4_adder.vhd {1 {vcom -work work -2008 -explicit -stats=none {D:\University\_MicroLabs\_tmp\Lab2\cap2\ex2.1.4\sim\tb_p4_adder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity TB_P4_ADDER
+-- Compiling architecture TEST of TB_P4_ADDER
+
+} {} {}} D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/pg_block.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/pg_block.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package CONSTANTS
+-- Compiling entity pg_block
+-- Compiling architecture bhv of pg_block
+
+} {} {}} D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/sum_generator.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/sum_generator.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package CONSTANTS
+-- Compiling entity sum_generator
+-- Compiling architecture str of sum_generator
+-- Loading entity carry_select_block
+
+} {} {}} D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/rca.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/rca.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package CONSTANTS
+-- Compiling entity RCA
+-- Compiling architecture STRUCTURAL of RCA
+
+} {} {}} D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/fa.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/fa.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FA
+-- Compiling architecture BEHAVIORAL of FA
+
+} {} {}} D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/pg_network.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/pg_network.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package CONSTANTS
+-- Compiling entity pg_network
+-- Compiling architecture rtl of pg_network
+
+} {} {}} D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/g_block.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/g_block.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package CONSTANTS
+-- Compiling entity g_block
+-- Compiling architecture bhv of g_block
+
+} {} {}} D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/carry_select_block.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/carry_select_block.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package CONSTANTS
+-- Compiling entity carry_select_block
+-- Compiling architecture str of carry_select_block
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity RCA
+-- Loading entity mux
+
+} {} {}} D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/mux.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/University/_MicroLabs/_tmp/Lab2/cap2/ex2.1.4/sim/mux.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package CONSTANTS
+-- Compiling entity mux
+-- Compiling architecture bhv of mux
+
+} {} {}}

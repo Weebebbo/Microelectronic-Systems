@@ -1,0 +1,8 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use work.constants.all;
+
+entity booth_encoder is
+
+end booth_encoder;

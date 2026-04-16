@@ -1,0 +1,117 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.std_logic_unsigned.all;
+use IEEE.std_logic_arith.all;
+use WORK.constants.all;
+use WORK.alu_types.all;
+
+entity ALU is
+  generic (N : integer := numBit);
+  port 	 ( FUNC: IN TYPE_OP;
+           DATA1, DATA2: IN std_logic_vector(N-1 downto 0);
+           OUTALU: OUT std_logic_vector(N-1 downto 0));
+end ALU;
+
+architecture BEHAVIOR of ALU is
+begin
+
+P_ALU: process (FUNC, DATA1, DATA2)
+  -- We use variables becasuse they update in the same process as they are assigned and not on the next
+  variable temp_vec : std_logic_vector(N-1 downto 0);
+  variable DATA2_number : integer;
+
+  -- complete all the requested functions
+  -- 1. Combinational operations means that the output depends onlu on the current input => there's no 
+  --    need to store current/older data.
+  begin
+    case FUNC is
+  -- std_logic_unsigned and std_logic_arith allow us to do operations directly on std_logic_vectors.
+	when ADD 	=> OUTALU <= DATA1 + DATA2; 
+	when SUB 	=> OUTALU <= DATA1 - DATA2;
+  -- The mult operation has to multiply ONLY the least significant parts of the NBIT long inputs
+  -- so we break the vectors in half and multiply.
+	when MULT 	=> OUTALU <= DATA1(((N/2)-1) downto 0) * DATA2(((N/2)-1) downto 0);
+  -- All logic operands are overloaded in the std_logic_1164 library, so according to the input 
+  -- the correct "version" is selected. 
+	when BITAND 	=> OUTALU <= DATA1 and DATA2; -- bitwise operations
+	when BITOR 	=> OUTALU <= DATA1 or DATA2;
+	when BITXOR 	=> OUTALU <= DATA1 xor DATA2;
+	when FUNCLSL 	=> 
+    -- VERSION A: For the shift left we select from where is isn't "eliminated" and keep selecting DATA1 until
+    --            it's finished, then we concatenate a 0 at the end.
+    --            we have a 0 at the end a the first bit of DATA1 is eliminated!!
+    OUTALU <= DATA1(N-2 downto 0) & '0'; -- logical shift left, HELP: use the concatenation operator &  
+
+  -- we do the same for the right shift, but we add the 0 to the left and change the selection interval
+	when FUNCLSR 	=>   
+    -- Here we select everything from DATA1 except for the LSB.
+    OUTALU <= '0' & DATA1(N-1 downto 1); -- logical shift right
+  
+  -- For the barrel shift we need to shift the first operand of the number expressed by the second operand
+  when FUNCLSL_B =>
+      -- DATA1 is N-1 downto 0 long, we need to add the value of DATA2 to this lenght
+      DATA2_number := conv_integer(DATA2);
+      temp_vec := DATA1; -- needed choose intervals
+      -- We use a for loop to add 0s at the right side of DATA1 
+      add0s_1 : for i in 0 to N loop
+        if i <= DATA2_number then
+          temp_vec := temp_vec(N-2 downto 0) & '0';
+        end if;
+      end loop add0s_1;
+
+      OUTALU <= temp_vec;
+
+  -- We do the same here but change the positions of 0s and the selection interval
+  when FUNCLSR_B =>
+      DATA2_number := conv_integer(DATA2);
+      temp_vec := DATA1;
+
+      add0s_2 : for i in 0 to N loop
+        if i <= DATA2_number then
+          temp_vec := '0' & temp_vec(N-1 downto 1);
+        end if;
+      end loop add0s_2;
+
+      OUTALU <= temp_vec;
+  
+	when FUNCRL => 
+      OUTALU <= DATA1(N-2 downto 0) & DATA1(N-1); -- rotate left
+	when FUNCRR => 
+      OUTALU <= DATA1(0) & DATA1(N-1 downto 1); -- rotate right
+
+  when FUNCRL_B =>
+      DATA2_number := conv_integer(DATA2);
+      temp_vec := DATA1;
+      
+      -- Is just like a shift left but we don't concatenate a 0 in the end, we concatenate the first element
+      -- of the DATA1 vector
+      add0s_3 : for i in 0 to N loop
+        if i <= DATA2_number then
+          temp_vec := temp_vec(N-2 downto 0) & temp_vec(N-1);
+        end if;
+      end loop add0s_3;
+
+      OUTALU <= temp_vec;
+  
+  when FUNCRR_B =>
+      DATA2_number := conv_integer(DATA2);
+      temp_vec := DATA1;
+
+      add0s_4 : for i in 0 to N loop
+        if i <= DATA2_number then
+          temp_vec := temp_vec(0) & temp_vec(N-1 downto 1);
+        end if;
+      end loop add0s_4;
+      
+      OUTALU <= temp_vec;
+
+	when others => null;
+    end case; 
+  end process P_ALU;
+
+end BEHAVIOR;
+
+configuration CFG_ALU_BEHAVIORAL of ALU is
+  for BEHAVIOR
+  end for;
+end CFG_ALU_BEHAVIORAL;

@@ -1,0 +1,3 @@
+The post synthesis VHDL netlist shows that there are DLH_X1 components, which are syncronus registers (mapped to OUTALU_reg_0 through 3).
+
+This happens because the original VHDL behavior architecture contains incomplete signal assignments, our case does not provide code for every possible assignment, so the synopsys compiler this element in order to prevent a short circuit or undefined state, so that the whole architecture can still retain the old value even if we have an "out of bounds" type for the alu_type.

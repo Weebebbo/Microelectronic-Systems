@@ -1,0 +1,15 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use work.constants.all;
+
+entity pg_block is
+	generic(
+		-- msb is the g signal, lsb the p signal
+		input_lenght : integer := input_lenght
+	);
+	port(
+		i_k : in std_logic_vector(input_lenght-1 downto 0);
+		k_1 : in std_logic_vector(input_lenght-1 downto 0);
+		output : out std_logic_vector(input_lenght-1 downto 0);
+	);
+end pg_block;

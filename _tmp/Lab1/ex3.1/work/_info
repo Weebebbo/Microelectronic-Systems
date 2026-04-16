@@ -1,0 +1,136 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/University/_MicroLabs/Lab1/ex2.1.2/sim
+Easync_register
+Z0 w1773500854
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 48
+Z3 dD:/University/_MicroLabs/Lab1/ex3.2.1
+Z4 8D:/University/_MicroLabs/Lab1/ex3.2.1/async_register.vhd
+Z5 FD:/University/_MicroLabs/Lab1/ex3.2.1/async_register.vhd
+l0
+L5 1
+V3zAVgQLRWLhZiU:3<[2Zb1
+!s100 aaLa@[WVFNzIePnAT;:M90
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1773501897
+!i10b 1
+Z8 !s108 1773501897.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/University/_MicroLabs/Lab1/ex3.2.1/async_register.vhd|
+Z10 !s107 D:/University/_MicroLabs/Lab1/ex3.2.1/async_register.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Astr
+Z13 DEx4 work 2 fd 0 22 1Bl`ABhSYSYYV2m20:B8W0
+R1
+R2
+Z14 DEx4 work 14 async_register 0 22 3zAVgQLRWLhZiU:3<[2Zb1
+!i122 48
+l24
+L22 16
+V11o9;7B^InoMW_QS1WOHW0
+!s100 oR?T@aWGHLU^gkKo?]Y=A3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Efd
+Z15 w1773499878
+R1
+R2
+!i122 49
+R3
+Z16 8D:/University/_MicroLabs/Lab1/ex3.2.1/fd.vhd
+Z17 FD:/University/_MicroLabs/Lab1/ex3.2.1/fd.vhd
+l0
+L4 1
+V1Bl`ABhSYSYYV2m20:B8W0
+!s100 RJzON<XCkom`@XR3@3[=12
+R6
+32
+R7
+!i10b 1
+R8
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/University/_MicroLabs/Lab1/ex3.2.1/fd.vhd|
+Z19 !s107 D:/University/_MicroLabs/Lab1/ex3.2.1/fd.vhd|
+!i113 1
+R11
+R12
+Apluto
+R1
+R2
+R13
+!i122 49
+l16
+L13 16
+V9S5^VE>i:KH]T?E;b`mIS2
+!s100 ?17Yh7N6JCC2aP4i1>8`71
+R6
+32
+R7
+!i10b 1
+R8
+R18
+R19
+!i113 1
+R11
+R12
+Etb_async_register
+Z20 w1773501889
+R1
+R2
+!i122 50
+R3
+Z21 8D:/University/_MicroLabs/Lab1/ex3.2.1/tb_async_register.vhd
+Z22 FD:/University/_MicroLabs/Lab1/ex3.2.1/tb_async_register.vhd
+l0
+L4 1
+VLRo[5[H2OhBjC?R]4GF=o2
+!s100 k<_3JbS1^9Dg]BAcBCj9o1
+R6
+32
+R7
+!i10b 1
+R8
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/University/_MicroLabs/Lab1/ex3.2.1/tb_async_register.vhd|
+Z24 !s107 D:/University/_MicroLabs/Lab1/ex3.2.1/tb_async_register.vhd|
+!i113 1
+R11
+R12
+Atest
+R14
+R1
+R2
+Z25 DEx4 work 17 tb_async_register 0 22 LRo[5[H2OhBjC?R]4GF=o2
+!i122 50
+l16
+Z26 L8 33
+Z27 V7Yzd0al4]CJo8l0;zZDEo0
+Z28 !s100 Nnn@CcX<867>88ViBAbL>0
+R6
+32
+R7
+!i10b 1
+R8
+R23
+R24
+!i113 1
+R11
+R12
