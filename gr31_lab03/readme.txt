@@ -1,0 +1,3 @@
+Answer to question 4
+The system implements a complex system, namely a Serial-In / Parallel-In / Serial-Out ALU.
+Input A is loaded serially via a SIPO register, while input B is loaded in parallel via a PIPO register. A 4-bit parallel addition is performed, and the result is stored in a PISO register and shifted out serially. The control unit coordinates all loading, computation, and output phases. Good to notice how the control signal are managed by the CU and their implementation in the states of the relative FSM.

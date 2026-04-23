@@ -1,0 +1,22 @@
+Information: Updating graph... (UID-83)
+Warning: Design 'register_file_DATA_BIT32' contains 2 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : clocks
+Design : register_file_DATA_BIT32
+Version: W-2024.09-SP2
+Date   : Mon Apr 20 12:36:20 2026
+****************************************
+
+Attributes:
+    d - dont_touch_network
+    f - fix_hold
+    p - propagated_clock
+    G - generated_clock
+    g - lib_generated_clock
+
+Clock          Period   Waveform            Attrs     Sources
+--------------------------------------------------------------------------------
+CLK              2.00   {0 1}                         {CLK}
+--------------------------------------------------------------------------------
+1

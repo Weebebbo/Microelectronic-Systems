@@ -1,0 +1,32 @@
+ 
+****************************************
+Report : area
+Design : register_file_DATA_BIT32
+Version: W-2024.09-SP2
+Date   : Mon Apr 20 12:36:41 2026
+****************************************
+
+Information: Updating design information... (UID-85)
+Warning: Design 'register_file_DATA_BIT32' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/repository/do/libnandgate/NangateOpenCellLibrary_typical_ecsm.db)
+
+Number of ports:                          117
+Number of nets:                          4645
+Number of cells:                         4208
+Number of combinational cells:           3120
+Number of sequential cells:              1088
+Number of macros/black boxes:               0
+Number of buf/inv:                        680
+Number of references:                      15
+
+Combinational area:               3882.536061
+Buf/Inv area:                      517.103988
+Noncombinational area:            4919.935822
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                  8802.471883
+Total area:                 undefined
+1

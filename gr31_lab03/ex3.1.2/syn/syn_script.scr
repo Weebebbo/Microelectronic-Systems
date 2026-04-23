@@ -1,0 +1,12 @@
+analyze -library WORK -format vhdl {registerfile.vhd}
+elaborate register_file -architecture A
+create_clock -name "CLK" -period 2 CLK
+report_clock > reportclock.txt
+compile
+report_area > notoptimized_area.txt
+report_timing > notoptimized_timing.txt
+set_max_delay 2 -from [all_inputs] -to [all_outputs]
+compile -map_effort high
+report_area > optimized_area.txt
+report_timing > optimized_timing.txt
+write -hierarchy -format vhdl -output post_syn_registerfile.vhdl
